@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>kansio-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="/Specs/Ikonit" sketch:type="MSArtboardGroup" transform="translate(-294.000000, -795.000000)">
+            <g id="kansio-3" sketch:type="MSLayerGroup" transform="translate(292.000000, 791.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M4,4 C2.9,4 2.01,4.9 2.01,6 L2,18 C2,19.1 2.9,20 4,20 L20,20 C21.1,20 22,19.1 22,18 L22,8 C22,6.9 21.1,6 20,6 L10,6 L8,4 L4,4 Z" id="akansio-0" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-410" fill="#FF4F00" sketch:type="MSShapeGroup" x="13" y="11" width="13" height="13" rx="1"></rect>
+                <path d="M16.4125,19.075 C16.4125,21.0375 17.875,22.15 19.4625,22.15 C21.075,22.15 22.425,21.075 22.425,19.4875 C22.425,18.375 21.8125,17.7375 21.025,17.425 C21.725,17.125 22.2125,16.5 22.2125,15.5 C22.2125,14.05 20.9375,13.1 19.4375,13.1 C17.85,13.1 16.7125,14.2125 16.7125,15.8375 L18.15,15.8375 C18.15,14.975 18.5,14.3875 19.5375,14.3875 C20.2625,14.3875 20.775,14.7625 20.775,15.5 C20.775,16.25 20.4625,16.775 19.425,16.775 L18.825,16.775 L18.825,18.05 L19.4125,18.05 C20.6,18.05 20.9875,18.675 20.9875,19.5 C20.9875,20.2125 20.4375,20.8625 19.525,20.8625 C18.6,20.8625 17.85,20.2125 17.85,19.075 L16.4125,19.075 Z" id="3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

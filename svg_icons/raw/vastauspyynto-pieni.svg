@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>vastauspyynto-pieni</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Asiointikansio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Specs/Asiointikansio-Viestielementit" sketch:type="MSArtboardGroup" transform="translate(-978.000000, -522.000000)" fill="#3C8FDE">
+            <g id="vastauspyynto-pieni" sketch:type="MSLayerGroup" transform="translate(978.000000, 522.000000)">
+                <g id="ic_reply_black_24px" sketch:type="MSShapeGroup">
+                    <path d="M5.05555556,3.55555556 L5.05555556,0.666666667 L0,5.72222222 L5.05555556,10.7777778 L5.05555556,7.81666667 C8.66666667,7.81666667 11.1944444,8.97222222 13,11.5 C12.2777778,7.88888889 10.1111111,4.27777778 5.05555556,3.55555556 L5.05555556,3.55555556 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

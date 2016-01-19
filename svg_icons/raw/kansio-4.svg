@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>kansio-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="/Specs/Ikonit" sketch:type="MSArtboardGroup" transform="translate(-323.000000, -795.000000)">
+            <g id="kansio-4" sketch:type="MSLayerGroup" transform="translate(321.000000, 791.000000)">
+                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M4,4 C2.9,4 2.01,4.9 2.01,6 L2,18 C2,19.1 2.9,20 4,20 L20,20 C21.1,20 22,19.1 22,18 L22,8 C22,6.9 21.1,6 20,6 L10,6 L8,4 L4,4 Z" id="akansio-0" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-410" fill="#FF4F00" sketch:type="MSShapeGroup" x="13" y="11" width="13" height="13" rx="1"></rect>
+                <path d="M19.9246429,22 L21.4032143,22 L21.4032143,19.3 L22.6375,19.3 L22.6375,17.9757143 L21.4032143,17.9757143 L21.4032143,15.2757143 L19.9246429,15.2757143 L19.9246429,17.9757143 L18.1246429,17.9757143 L18.1246429,13 L16.6460714,13 L16.6460714,19.3 L19.9246429,19.3 L19.9246429,22 Z" id="4" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

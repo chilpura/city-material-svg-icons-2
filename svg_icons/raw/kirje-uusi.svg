@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="25px" viewBox="0 0 30 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>kirje-uusi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Asiointikansio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Specs/Asiointikansio-Viestielementit" sketch:type="MSArtboardGroup" transform="translate(-1036.000000, -155.000000)">
+            <g id="kirje-uusi" sketch:type="MSLayerGroup" transform="translate(1036.000000, 155.000000)">
+                <path d="M22.5,5 L2.5,5 C1.125,5 0.0125,6.125 0.0125,7.5 L0,22.5 C0,23.875 1.125,25 2.5,25 L22.5,25 C23.875,25 25,23.875 25,22.5 L25,7.5 C25,6.125 23.875,5 22.5,5 L22.5,5 Z M22.5,10 L12.5,16.25 L2.5,10 L2.5,7.5 L12.5,13.75 L22.5,7.5 L22.5,10 L22.5,10 Z" id="Shape-Copy-2" fill="#3C8FDE" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-1-Copy" fill="#FF4F00" sketch:type="MSShapeGroup" cx="24.5" cy="5.5" r="5.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

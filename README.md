@@ -1,0 +1,1 @@
+This is an svg system of selected icons created with grunt-grunticon, grunt-svgmin and grunt-clean. Nothing fancy, just a bunch of material icons. 
