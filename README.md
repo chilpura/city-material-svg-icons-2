@@ -23,7 +23,7 @@ Käsiteltävät kuvat sijoitetaan työkansioon  `svg_icons/raw` ja ajetaan komen
 Grunticon luo `output` hakemistoon preview.html tiedoston, jota voi käyttää lopputuloksen tarkistamiseen selaimessa.
 
 ### 2.2.1. Väriversioiden tekeminen ikoneista
-yada
+To be done.
 
 ## 2.3. Kuvaresurssien käyttö
 Kaikki .css tiedostot (icons.data.png.css, icons.data.svg.css, icons.fallback.css) linkitetään projektiin ja grunticon.loader.js tiedoston sisältämä koodi lisätään html-sivun head elementtiin.
