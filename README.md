@@ -1,5 +1,5 @@
 # 1. Grunticon
-Grunticon on javascript-pohjainen tehtävien automatisoija, jota käytämme ikonien tuottamiseen Sähköisten palveluiden sivuja varten. Grunticonin etu on että sillä saadaan sekä korkealaatuiset svg-ikonit niitä svg:tä tukeviin selaimiin, että png-ikonit vanhempiin selaimiin joissa ei ole svg-tukea. Grunticon sisältää myös scriptin jolla selaimen ominaisuudet 'nuuskitaan' ja soveltuvat ikonit näytetään ominaisuuksien mukaan. Grunticonin käyttämiseen ei tarvita paljoakaan teknistä osaamista jos käytetään tekemääni pakettia sellaisenaan. Se mitä tarvitaan on muutamien ohjelmien asentaminen.
+[Grunticon](http://www.grunticon.com)on javascript-pohjainen tehtävien automatisoija, jota käytämme ikonien tuottamiseen Sähköisten palveluiden sivuja varten. Grunticonin etu on että sillä saadaan sekä korkealaatuiset svg-ikonit niitä svg:tä tukeviin selaimiin, että png-ikonit vanhempiin selaimiin joissa ei ole svg-tukea. Grunticon sisältää myös scriptin jolla selaimen ominaisuudet 'nuuskitaan' ja soveltuvat ikonit näytetään ominaisuuksien mukaan. Grunticonin käyttämiseen ei tarvita paljoakaan teknistä osaamista jos käytetään tekemääni pakettia sellaisenaan. Se mitä tarvitaan on muutamien ohjelmien asentaminen.
 
 ## 1.1 Tarvittavat ohjelmat
 * [Node](https://nodejs.org/en/) 
@@ -13,7 +13,7 @@ Sähköisten palveluiden ikoni ja logoresurssien käyttö perustuu Grunticon-poh
 * Kuvaresurssit ja koodi sijoitetaan kohdeympäristöön.
 
 ## 2.1. Suunnittelu 
-Ikonien suunnitelussa ei ole mitään tavallisuudesta vektorikuvien luonnista poikkeavaa. Seuraavat asiat kannattaa kuitenkin ottaa huomioon. Eri värisistä ikoneista ei kannata tehdä duplikaatteja jos ainoa muuttuva asia on kuvan täyteväri. Grunticon pystyy luomaan eri värisiä versioita automaattisesti. (kts 2.). Toinen huomioitava asia on, että vektorielementtien ääriviiva (stroke) on aina oltava vektorin keskellä. Jotkin vektoriohjelmat mahdollistavat ääriviivan sijoittamisen viivan ulko tai sisäpuolelle, mutta svg-muoto ei tue tällaisia viivoja.
+Ikonien suunnitelussa ei ole mitään tavallisuudesta vektorikuvien luonnista poikkeavaa. Seuraavat asiat kannattaa kuitenkin ottaa huomioon. Eri värisistä ikoneista ei kannata tehdä duplikaatteja jos ainoa muuttuva asia on kuvan täyteväri. Grunticon pystyy luomaan eri värisiä versioita automaattisesti. (kts 2.2.1.). Toinen huomioitava asia on, että vektorielementtien ääriviiva (stroke) on aina oltava vektorin keskellä. Jotkin vektoriohjelmat mahdollistavat ääriviivan sijoittamisen viivan ulko tai sisäpuolelle, mutta svg-muoto ei tue tällaisia viivoja.
 
 Svg-kuvat voi optimoida jollain työkalulla kuten [SVGOMG](https://jakearchibald.github.io/svgomg/), mutta se ei ole tarpeellista, koska Grunticon automatisoijassa on alatehtävä (svgmin) tätä varten. Halutessaan alatehtävän voi ohittaa kommentoimalla kyseisen tehtävän pois Gruntfile.js tiedostosta ja käyttää korvaavaa optimoijaa ennen Grunticonin käyttöä.
 
@@ -23,7 +23,16 @@ Käsiteltävät kuvat sijoitetaan työkansioon  `svg_icons/raw` ja ajetaan komen
 Grunticon luo `output` hakemistoon preview.html tiedoston, jota voi käyttää lopputuloksen tarkistamiseen selaimessa.
 
 ### 2.2.1. Väriversioiden tekeminen ikoneista
-To be done.
+Grunticon voi luoda ikoneista eri värisiä versioita. Värit täytyy määritellä Gruntfile.js tiedostoon esimerkiksi seuraavasti:
+
+```                     
+colors: {
+light: '#ffffff',
+blueMiddle: '#3c8fde'
+}
+```
+Kuvien nimeen lisätään halutun värin nimi, esim nimeämällä `logout.svg` tiedosto `logout.colors-light-blueMiddle.svg` saadaan kuvasta originaaliversion lisäksi valkoinen ja sininen versio. Paras työtapa on nimetä kuva jo suunnitteluohjelmassa tarvittavalla värimäärityksellä.
+
 
 ## 2.3. Kuvaresurssien käyttö
 Kaikki .css tiedostot (icons.data.png.css, icons.data.svg.css, icons.fallback.css) linkitetään projektiin ja grunticon.loader.js tiedoston sisältämä koodi lisätään html-sivun head elementtiin.
