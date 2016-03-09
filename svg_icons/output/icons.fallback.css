@@ -40,6 +40,8 @@
 
 .icon-attach_file { background-image: url('png/attach_file.png'); background-repeat: no-repeat; }
 
+.icon-beta { background-image: url('png/beta.png'); background-repeat: no-repeat; }
+
 .icon-chat_bubble-blueMiddle { background-image: url('png/chat_bubble-blueMiddle.png'); background-repeat: no-repeat; }
 
 .icon-chat_bubble-light { background-image: url('png/chat_bubble-light.png'); background-repeat: no-repeat; }
@@ -181,6 +183,12 @@
 .icon-logout { background-image: url('png/logout.png'); background-repeat: no-repeat; }
 
 .icon-menu { background-image: url('png/menu.png'); background-repeat: no-repeat; }
+
+.icon-neuvola_kalenteri { background-image: url('png/neuvola_kalenteri.png'); background-repeat: no-repeat; }
+
+.icon-neuvola_odotus { background-image: url('png/neuvola_odotus.png'); background-repeat: no-repeat; }
+
+.icon-neuvola_vauva { background-image: url('png/neuvola_vauva.png'); background-repeat: no-repeat; }
 
 .icon-open_in_new-blueMiddle { background-image: url('png/open_in_new-blueMiddle.png'); background-repeat: no-repeat; }
 
